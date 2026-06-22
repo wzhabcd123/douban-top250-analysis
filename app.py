@@ -1,3 +1,5 @@
+import os
+os.environ["MPLBACKEND"] = "Agg"
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
